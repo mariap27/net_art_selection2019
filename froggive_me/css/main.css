@@ -1,0 +1,39 @@
+html, body {
+  margin:0;
+  padding: 0;
+  height:100%;
+  width: 100%;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.console {
+  position: absolute;
+
+}
+
+.console > img {
+  width: 100%;
+  height: 100%;
+}
+
+.buttons {
+  position: relative;
+}
+
+.background > img {
+  width: 100%;
+  height:100%;
+}
+
+.kid {
+  position: fixed;
+  bottom: 10 fr;
+  width: 300px;
+}

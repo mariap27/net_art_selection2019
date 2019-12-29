@@ -1,0 +1,29 @@
+body,html,frame {
+  background-color: blue;
+  cursor:not-allowed;
+
+}
+
+p {
+  font-family: "Amphis";
+  font-size: 50px;
+  color: white;
+}
+
+.texto {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ box-sizing: border-box;
+ padding: 1em;
+ height: 100%;
+}
+
+a {
+  text-decoration:none;
+  color: #00ff00;
+}
+
+a:hover {
+
+}

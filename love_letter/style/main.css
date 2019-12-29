@@ -1,0 +1,36 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.love-letter {
+  grid-area: image;
+  display: flex;
+  justify-content: center;
+}
+
+.emoji {
+  cursor: help;
+  transition: all .2s ease-in-out;
+}
+
+.emoji:hover {
+  transform: scale(1.1);
+}
+
+.login {
+  visibility: hidden;
+  grid-area: login;
+  display: flex;
+  place-self: center;
+}
+
+.container {
+  display: grid;
+  align-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: ". . ."
+                       ". image ."
+                       ". login ."
+}

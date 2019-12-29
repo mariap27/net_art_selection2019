@@ -1,0 +1,17 @@
+body, html, frame {
+
+  background-color: #ff88ff;
+  color: #00ff00;
+}
+
+.dont {
+  cursor: not-allowed;
+}
+
+.invited {
+  cursor: help;
+}
+
+.images {
+  margin-left: 30px;
+}
